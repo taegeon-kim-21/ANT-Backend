@@ -1,5 +1,4 @@
 const dbConfig = require("../config/dbConfig.js");
-
 const {Sequelize, DataTypes} = require('sequelize');
 
 
@@ -16,7 +15,6 @@ const sequalize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
         acquire: dbConfig.pool.acquire,
         idle: dbConfig.pool.idle
     }
-
 });
 
 sequalize.authenticate()
