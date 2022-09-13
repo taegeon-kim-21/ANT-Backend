@@ -15,10 +15,7 @@ const sequalize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
         acquire: dbConfig.pool.acquire,
         idle: dbConfig.pool.idle
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/TaegeonKim
 });
 
 sequalize.authenticate()
