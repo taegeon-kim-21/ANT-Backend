@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 
 
 //port 3001번 이용중
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 
 //server
